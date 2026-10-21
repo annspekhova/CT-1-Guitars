@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head> 
+    <meta charset="UTF-8">
+    <title> Изменяем кириллицу на латиницу по клику</title>
+    <link rel="stylesheet" href="../main/style.css">
+
+<style type="text/css">
+   html {
+    height: 100%;    
+   }
+   body {
+    background-image: url(pasport_shablon.png); 
+    background-position: left top 70px; 
+    background-repeat: no-repeat; 
+   }
+   .date{
+    margin-left: 100px;
+    margin-top:  70px;
+   }
+   .block{
+    margin-left: 85px;
+    margin-top:  50px;
+   }
+   .fio {
+    margin-left: 190px;
+    margin-top: 190px;
+   }
+   .name{
+    margin-left: 190px;
+    margin-top:  25px;
+   }
+   .last{
+    margin-left: 190px;
+    margin-top:  3px;
+   }
+   .birth{
+    margin-left: 180px;
+    margin-top:  4px;
+   }
+   .place{
+    margin-left: 190px;
+    margin-top:  3px;
+   }
+   .png{
+    margin-left: 20px;
+    margin-top:  -100px;
+   }
+   .btn{
+    margin-left: 10px;
+    margin-top:  120px;
+   }
+  </style>
+  </head>
+
+
+<body> 
+    <header>
+     <div class="navbar">
+      <ul>   
+        <li><a href="https://ru.wikipedia.org/wiki/Гитара" target="_blank"><img src="https://static.vecteezy.com/system/resources/thumbnails/058/570/503/small_2x/rock-electric-guitar-isolated-on-transparent-background-png.png" width="30px"> </a></li>
+        <li><a href="../main/index.html">Главная</a></li>      
+        <li><a href="#forms">Формы</a></li>
+        <li><a href="../perks/perks.html">Почему стоит научиться играть</a></li>
+        <li><a href="../songs/songs.html">Мои любимые песни</a></li>            
+        <li><a href="../task/task.html">Алгоритмическая задача</a></li> 
+        <li><a href="./passport.html"  class="active">Паспорт</a></li>
+      </ul>
+     </div>
+    </header>
+
+
+    <div class="date">УМВД РОССИИ ПО ХМАО - ЮГРЕ</div>
+    <div class="block">21.09.2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  330-128</div>
+    <div class="fio">Спехова</div>
+    <div class="name">Анна</div>
+    <div class="last">Сергеевна</div>
+    <div class="birth">жен &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12.07.2007</div>
+    <div class="place">г. Сургут</div>
+    <div class="png"> 
+        <img src="men.jpg"  width="110" height="120">
+    </div>
+
+    <button class="btn" id="change">Заменить</button>
+
+    <br><br><br><br>
+    <h2>DOM_JS. Считываем информацию из DOM</h2>
+    <img src="./screen.png" width="1200px">
+    
+</body>
+<script src="change.js">
+</script>
+</html>
